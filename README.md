@@ -2,7 +2,7 @@ To say this is hot off the presses and poorly tested is to flatter it but here's
 
 https://github.com/psidnell/oo2taskpaper
 
-I basically reverse engineered Fletcher Penny's markdown plugin to work out that it was a an xsl template - about which I know little.
+I basically reverse engineered [Fletcher Penny's markdown plugin](https://github.com/fletcher/Markdown.ooxsl) to work out that it was a an xsl template - about which I know little.
 
 Download the zip:
 
