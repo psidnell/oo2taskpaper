@@ -44,7 +44,7 @@
 				<xsl:for-each select="oo:values/oo:text">
 					<xsl:call-template name="textTemplate">
           				<xsl:with-param name="item" select="."/>
-          				<xsl:with-param name="preamble"><xsl:value-of select="$indent"/>-</xsl:with-param>
+          				<xsl:with-param name="preamble"><xsl:value-of select="$indent"/>- </xsl:with-param>
           				<xsl:with-param name="postamble"></xsl:with-param>
         			</xsl:call-template>
 				</xsl:for-each>
