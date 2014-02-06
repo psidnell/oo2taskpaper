@@ -12,6 +12,4 @@ and double click on the TaskPaper.ooxsl bundle and OO4 should install it.
 
 Then you should see a "TaskPaper (text)" option when you export.
 
-So far it can export a basic outline successfully but looking at the input document I have a suspicion that adding formatting could cause issues.
-
-But it's a start...
+It seems to cope with basic formatting and embedded links, at least on the examples I've tried.
