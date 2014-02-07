@@ -1,15 +1,18 @@
-To say this is hot off the presses and poorly tested is to flatter it but here's my first attempt.
+# oo2taskpaper
 
-https://github.com/psidnell/oo2taskpaper
+This is an [OmniOutliner](http://www.omnigroup.com/omnioutliner) plugin that adds a new "TaskPaper (text)" option to the export menu.
 
-I basically reverse engineered [Fletcher Penny's markdown plugin](https://github.com/fletcher/Markdown.ooxsl) to work out that it was a an xsl template - about which I know little.
+## Why?
 
-Download the zip:
+While I love editing and arranging in OmniOutliner, if I want to email someone else my outline I've found pasting the OO content into an email usually causes catastrophic indenting and layout problems. On the other hand TP seems to get it right every time. Thus a convenient route OO->TP->Mail is pretty useful to me at least.
 
-https://github.com/psidnell/oo2taskpaper/archive/master.zip
+## Installation
 
-and double click on the TaskPaper.ooxsl bundle and OO4 should install it.
+1. Download the [zip](https://github.com/psidnell/oo2taskpaper/archive/master.zip) and open it.
+2. Double click on the TaskPaper.ooxsl bundle and OmniOutliner 4 should offer to install it.
 
-Then you should see a "TaskPaper (text)" option when you export.
+## Known Limitations
 
-It seems to cope with basic formatting and embedded links, at least on the examples I've tried.
+- Formatting is stripped since there is no representation of this in TaskPaper.
+- Only the first column is exported.
+- OO entries with children become TP projects, whereas those without become tasks.
